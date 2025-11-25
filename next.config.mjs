@@ -29,11 +29,6 @@ const nextConfig = {
     minimumCacheTTL: 60,
   },
   
-  // Optimizaciones de bundle
-  experimental: {
-    optimizeCss: true,
-  },
-  
   // Headers de compresión
   async headers() {
     return [
