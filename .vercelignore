@@ -1,0 +1,32 @@
+# Archivos y carpetas a excluir del deploy en Vercel
+
+# Dependencias (se instalan automáticamente)
+node_modules/
+
+# Archivos de desarrollo
+.git/
+.vscode/
+.idea/
+*.log
+*.lock
+
+# Archivos de configuración local
+.env*.local
+.env
+
+# Documentación
+README.md
+GUIA_DESPLIEGUE.md
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
